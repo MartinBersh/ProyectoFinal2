@@ -1,0 +1,8 @@
+module com.example.proyectofinal2 {
+    requires javafx.controls;
+    requires javafx.fxml;
+
+
+    opens com.example.proyectofinal2 to javafx.fxml;
+    exports com.example.proyectofinal2;
+}
